@@ -1,0 +1,76 @@
+.five{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(230, 212, 207);
+    padding: 8rem 2rem;
+    margin-top: -5rem;
+}
+
+.five .fiveImage{
+    width: 50%;
+}
+.fiveImage img{
+    width: auto;
+    height: 30rem;
+}
+
+.fiveInfo{
+    text-align: left;
+    margin-top: 3rem;
+    width: 30rem;
+}
+
+.information h5{
+    color: rgb(243, 63, 63);
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 1rem;
+}
+.information h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.information p{
+    color:gray
+}
+.fiveInfo .app{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-top: 2rem;
+}
+
+.app .appStore{
+    border: 2px solid gray;
+    width: 12rem;
+    height: 5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.appStore h4{
+    margin-left: 5rem;
+    margin-top: -2.7rem;
+    font-weight: bold;
+}
+.appStore .fa-apple{
+   font-size: 4rem;
+   margin-left: 1rem;
+}
+
+.app .playStore{
+    border: 2px solid gray;
+    width: 12rem;
+    height: 5rem;
+    border-radius: 1rem;
+}
+.playStore h4{
+    margin-left: 5rem;
+    margin-top: -2.7rem;
+    font-weight: bold;
+}
+.playStore .fa-google-play{
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}

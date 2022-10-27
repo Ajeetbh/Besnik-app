@@ -1,0 +1,73 @@
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+    /* background-color: rgb(235, 106, 106); */
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar .logo a{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: left;
+    text-decoration: none;
+}
+.logo img{
+    width: 3rem;
+    height: 3rem;
+}
+.logo h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.link ul a{
+    display: inline-block;
+    padding: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+ul a:hover{
+    color:rgb(235, 106, 106);
+}
+
+.search-box{
+    width: 20rem;
+    border-radius: 30px;
+    box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
+    display: flex;
+}
+input{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 300px;
+}
+.icon-search{
+    margin-top: 1.3rem;
+    margin-left: .5rem;
+}
+
+.search-box .line{
+    font-size: 2rem;
+    color: grey;
+    margin-top: .5rem;
+}
+
+.cart .fa-shopping-bag{
+    font-size: 1.5rem;
+    margin-right: 2.8rem;
+    margin-top: 1.5rem;
+}
+.cart .num{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3rem;
+    background-color:rgb(243, 63, 63) ;
+    color: white;
+    margin-left: 2rem;
+    margin-top:-2.5rem;
+}

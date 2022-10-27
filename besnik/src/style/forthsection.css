@@ -1,0 +1,79 @@
+.forth{
+    display: flex;
+    flex-direction: row;
+    margin-top: -10rem;
+    padding: 0rem 2rem;
+}
+
+.forthInfo{
+    width: 50%;
+    text-align: left;
+}
+.forthInfo h5{
+    color: orange;
+    margin-bottom: 1rem;
+}
+.forthInfo h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.forthInfo p{
+    font-size: 1.2rem;
+    color: gray;
+    width: 32rem;
+    margin-bottom: 4rem;
+}
+.forthInfo span{
+    width: 20rem;
+    height: 4rem;
+    border: 1px solid rgb(243, 63, 63);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: rgb(243, 63, 63);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forthImage{
+    width: 50%;
+}
+
+
+
+.forthImage .man{
+    position: relative;
+    top:2rem;
+    left: -5rem;
+}
+.man img{
+    width: 22rem;
+    height: 22rem;
+}
+
+.forthImage .second{
+    background: white;
+    width: 10rem;
+    height: 13rem;
+    position: relative;
+    top:-20rem;
+    left: 18rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
+}
+
+.second .bike{
+    margin-top: -3rem;
+}
+.bike img{
+    width: 5rem;
+    height: 5rem;
+}
+.second span{
+    font-size: .7rem;
+    width: 8.5rem;
+    text-align: center;
+    margin-left: .5rem;
+    color: gray;
+}

@@ -1,0 +1,84 @@
+.footer{
+    padding: 2rem 6rem 1rem 6rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.fooFirst{
+    width: 15rem;
+    text-align: left;
+}
+.fooFirst img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.fooFirst h2{
+    font-weight: bold;
+    margin: -2.5rem 2rem 1rem 2.5rem;
+    font-family: "Poppins", sans-serif;
+}
+.fooFirst p{
+    color: grey;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.fooSecond{
+    width: 10rem;
+    margin-left: 12rem;
+    text-align: left;
+}
+.fooSecond h4{
+    font-weight: bold;
+}
+.fooSecond li{
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    padding: .3rem;
+    color: grey;
+}
+
+.fooThird{
+    width: 10rem;
+    margin-left: 10rem;
+    text-align: left
+}
+.fooThird h4{
+    font-weight: bold;
+}
+.fooThird li{
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    padding: .3rem;
+    color: grey;
+}
+.fooForth{
+    width: 15rem;
+    margin-left: 10rem;
+    text-align: left;
+}
+.fooForth h4{
+    font-weight: bold;
+}
+.fooForth p{
+    color: grey;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: .9rem;
+    color: grey;
+}

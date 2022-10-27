@@ -1,0 +1,145 @@
+.first{
+    display: flex;
+    flex-direction:row;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.first .firstInfo{
+    width: 50%;
+}
+.firstInfo .headerspan{
+    background-color: rgb(231, 198, 198);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 2.5rem;
+    color: rgb(243, 63, 63);
+    font-weight: bold;
+}
+.headerInfo h1{
+    font-size: 4.5rem;
+    text-align: left;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+.headerInfo .hours{
+    color: rgb(243, 63, 63);
+}
+.headerInfo p{
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 2rem;
+}
+.headerspan img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+.order{
+    display: flex;
+    flex-direction: row;
+}
+.ordernow{
+    width: 9rem;
+    height: 3rem;
+    background-color: rgb(243, 63, 63);
+    color: white;
+    border-radius: 1rem;
+    padding-top: .6rem;
+}
+.fa-caret-right{
+    width: 3rem;
+    height: 3rem;
+    margin:.1rem 2rem 2rem 2rem;
+    border-radius: 3rem;
+    padding-top: .5rem;
+    background-color:whitesmoke; 
+}
+.order p{
+    margin-top: .8rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.image{
+    width: 50%;
+}
+
+.image .firstImage{
+    position: relative;
+    top:0;
+    left: 0;
+}
+
+.secondImage{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 12rem;
+    height: 18rem;
+    background-color: white;
+    position:absolute;
+    top: 10.2rem;
+    left: 42rem;
+    border-radius: 2rem;
+    box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
+}
+.secondImage img{
+    width: 8rem;
+    height: 8rem;
+}
+
+.secondImage .info h2{
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+}
+.info h5{
+    font-family: "Poppins", sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+}
+.info p{
+    color: gray;
+    font-family: "Poppins", sans-serif;
+}
+
+.secondImage .cart{
+    position: absolute;
+    left: 4rem;
+    top: 16rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgb(243, 63, 63);
+    border-radius: 1rem;
+    padding-top: 1rem;
+}
+
+.alarm{
+    width: 12rem;
+    height: 4rem;
+    display: flex;
+    background-color: white;
+    position: relative;
+    top: -16rem;
+    left: 28.5rem;
+    margin-left: 2.5rem;
+    border-radius: 1.5rem;
+    padding: .2rem .2rem;
+    box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
+}
+
+.alarm .fa-clock-o{
+    margin-left: 1rem;
+}
+.alarm h5{
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: .2rem;
+}
+.alarm p{
+    margin-top: 2rem;
+    margin-left: -4rem;
+    color: grey;
+}

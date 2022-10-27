@@ -1,0 +1,51 @@
+.second{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 198, 198);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.second .secondInfo1 p{
+    color: rgb(243, 63, 63);
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.secondInfo1 h1{
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 1rem 15rem 1rem 15rem;
+    word-spacing: .2rem;
+}
+
+.secondProp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondProp .col1{
+    width: 18rem;
+    height: 20rem;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 2rem;
+    padding-top: 3rem;
+}
+.col1 h3{
+    font-weight: bold;
+    padding-top: 2rem;
+}
+#days{
+    box-shadow:2rem 2rem rgb(243, 63, 63);
+}
+
+
+.col1 p{
+    padding: 1rem 2rem 0rem 2rem;
+}
