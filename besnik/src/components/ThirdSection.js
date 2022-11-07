@@ -1,5 +1,7 @@
 import React from 'react';
 import '../style/thirdsection.css'
+import image4 from '../images/girl.png'
+import image5 from '../images/strawbarre2.png'
 
 const ThirdSection = () => {
   return (
@@ -8,13 +10,13 @@ const ThirdSection = () => {
             <div className='third'>
                 <div className='thirdImage'>
                     <div className='first'>
-                      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_DMDrjMd8-TQTep3EnXUE2fD8jvLJmVCoqA&usqp=CAU' alt='thirdImage'/>
+                      <img src={image4} alt='thirdImage'/>
                     </div>
                     <div className='second'>
                       <h5>Melting Cheese</h5>
                       <p>Red Stovery</p>
                       <div className='secImage'>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRovbcYQxuCz5Dmvpr6jaFbd2Q2OvZgODpl1g&usqp=CAU" alt="image6"/>
+                        <img src={image5} alt="image6"/>
                       </div>  
                       <div className='secondInfo'>
                       <i className='fa fa-star icon1' style={{color: '#f3da35',fontSize:"1.2rem"}}></i> 

@@ -1,5 +1,8 @@
 import React from 'react'
 import '../style/firstsection.css'
+import image1 from '../images/strawbarre.png'
+import image2 from '../images/man.png'
+import image3 from '../images/orange.png'
 const FirstSection = () => {
   return (
     <div className='container'>
@@ -8,7 +11,7 @@ const FirstSection = () => {
           <div className='firstInfo'>
             <div className="headerspan">
               <span>More than faster</span>
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRovbcYQxuCz5Dmvpr6jaFbd2Q2OvZgODpl1g&usqp=CAU" alt='image1'/>
+              <img src={image1} alt='image1'/>
             </div>
             <div className='headerInfo'>
             <h1>Groceries delivered in as little as <span className='hours'>2 hours</span></h1>
@@ -22,11 +25,11 @@ const FirstSection = () => {
           </div>
           <div className='image'>
           <div className='firstImage'>
-            <img src="https://media.istockphoto.com/photos/courier-picture-id1321175276?k=20&m=1321175276&s=612x612&w=0&h=jPwXn3k3LlJhBqOzoVz6FTGEQhPemEZinf67Cyk0Q-g=" alt="headerimage"/>
+            <img src={image2} alt="headerimage"/>
             </div>
             <div className='secondImage'>
               <div className='secImage'>
-                <img src="https://media.istockphoto.com/photos/orange-isolated-on-white-background-clipping-path-full-depth-of-field-picture-id1194662606?k=20&m=1194662606&s=612x612&w=0&h=Q3bHkLexn71hPlUJQSPhazlJiL-xpeVGwOAFwO67WcU=" alt="smallImage"/>
+                <img src={image3} alt="smallImage"/>
               </div>
               <div className='info'>
                 <h5>Fresh Orange</h5>

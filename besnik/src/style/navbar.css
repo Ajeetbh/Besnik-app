@@ -58,7 +58,7 @@ input{
 }
 
 .cart .fa-shopping-bag{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-right: 2.8rem;
     margin-top: 1.5rem;
 }
@@ -68,6 +68,6 @@ input{
     border-radius: 3rem;
     background-color:rgb(243, 63, 63) ;
     color: white;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top:-2.5rem;
 }

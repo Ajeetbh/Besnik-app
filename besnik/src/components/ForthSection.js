@@ -1,5 +1,7 @@
 import React from 'react'
 import '../style/forthsection.css'
+import image6 from '../images/man2.png'
+
 
 const ForthSection = () => {
   return (
@@ -14,7 +16,7 @@ const ForthSection = () => {
                 </div>
                 <div className='forthImage'>
                     <div className='man'>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo_t81XTxrbpsaupBsdITSjqHxa6j2nNbCzTYRojd51SWbJUt6yB6B13Km8nO1i_uslOM&usqp=CAU" alt="image1"/>
+                        <img src={image6} alt="image1"/>
                     </div>
                     <div className='second'>
                         <div className='bike'>

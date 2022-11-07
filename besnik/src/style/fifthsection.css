@@ -43,7 +43,7 @@
 
 .app .appStore{
     border: 2px solid gray;
-    width: 12rem;
+    width: 14rem;
     height: 5rem;
     margin: 1rem;
     border-radius: 1rem;
@@ -60,7 +60,7 @@
 
 .app .playStore{
     border: 2px solid gray;
-    width: 12rem;
+    width: 14rem;
     height: 5rem;
     border-radius: 1rem;
 }

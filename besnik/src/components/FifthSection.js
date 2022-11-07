@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/fifthsection.css'
+import image7 from '../images/phone.png'
 
 const FifthSection = () => {
   return (
@@ -7,7 +8,7 @@ const FifthSection = () => {
         <div className='row'>
             <div className='five'>
                 <div className='fiveImage'>
-                    <img src="https://c8.alamy.com/zooms/6/e6c979525ade40e98458882a0763ef51/2akxgxf.jpg" alt="images1"/>
+                    <img src={image7} alt="images1"/>
                 </div>
                 <div className='fiveInfo'>
                     <div className='information'>

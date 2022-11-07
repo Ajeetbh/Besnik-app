@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style/secondsection.css'
 
+
 const SecondSection = () => {
   return (
     <div className='container-fliud'>
@@ -12,7 +13,7 @@ const SecondSection = () => {
                 </div>
                 <div className='secondProp'>
                     <div className='col1'>
-                        <i class="fa fa-truck" style={{fontSize:"70px",color:"rgb(243, 63, 63)"}}></i>
+                        <i class="fa fa-truck" style={{fontSize:"70px",color:"rgb(243, 63, 63)"}}></i> 
                         <h3>Free shipping</h3>
                         <p>Enjoy Order in a hand using the fresness of groceries</p>
                     </div>
