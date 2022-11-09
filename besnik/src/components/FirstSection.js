@@ -1,8 +1,8 @@
-import React from 'react'
-import '../style/firstsection.css'
-import image1 from '../images/strawbarre.png'
-import image2 from '../images/man.png'
-import image3 from '../images/orange.png'
+import React from 'react';
+import '../style/firstsection.css';
+import image1 from '../images/strawbarre.png';
+import image2 from '../images/man.png';
+import image3 from '../images/orange.png';
 const FirstSection = () => {
   return (
     <div className='container'>
@@ -40,7 +40,7 @@ const FirstSection = () => {
              <i class='fas fa-cart-plus' style={{fontSize:"20px",color:"white"}}></i>
              </div>
              <div className='alarm'>
-              <i class="fa fa-clock-o" style={{fontSize:"48px",color:"green"}}></i>
+              <i class="fa fa-clock-o" style={{fontSize:"35px",color:"green"}}></i>
               <h5>Delivery</h5>
               <p>30 min</p>
              </div>

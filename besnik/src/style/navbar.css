@@ -35,10 +35,12 @@ ul a:hover{
 }
 
 .search-box{
-    width: 20rem;
+    width: 15rem;
+    height: 3rem;
     border-radius: 30px;
     box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
     display: flex;
+    margin-top: -1.5rem;
 }
 input{
     background: transparent;
@@ -47,27 +49,27 @@ input{
     width: 300px;
 }
 .icon-search{
-    margin-top: 1.3rem;
+    margin-top: 1rem;
     margin-left: .5rem;
 }
 
 .search-box .line{
     font-size: 2rem;
     color: grey;
-    margin-top: .5rem;
+    margin-top: .2rem;
 }
 
 .cart .fa-shopping-bag{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-right: 2.8rem;
     margin-top: 1.5rem;
 }
 .cart .num{
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 3rem;
     background-color:rgb(243, 63, 63) ;
     color: white;
-    margin-left: 1rem;
+    margin-left: .5rem;
     margin-top:-2.5rem;
 }

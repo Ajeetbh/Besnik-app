@@ -24,7 +24,7 @@
     width: 20rem;
     height: 27rem;
     border-radius: 20rem;
-    margin: 0rem 2rem -2rem 7rem ; 
+    margin: 1.5rem 2rem -2rem 6rem ; 
 }
 
 .thirdImage .second{
@@ -34,7 +34,7 @@
     background-color: white;
     position:relative;
     top:-26rem;
-    left: 26.1rem;
+    left: 25rem;
     border-radius: 2rem;
     box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
 }
